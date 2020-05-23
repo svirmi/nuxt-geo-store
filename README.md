@@ -7,6 +7,18 @@
 node data/generate.js
 ```
 
+## http://localhost:3000/graphql
+
+```graphql
+{
+  locations(lat:45.4356958,lng:-122.53054,radius:5){
+    id
+    name
+  }
+  products
+}
+```
+
 ## Build Setup
 
 ```bash
