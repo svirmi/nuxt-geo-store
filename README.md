@@ -2,6 +2,11 @@
 
 > My stylish Nuxt.js project
 
+## To seed random data, run from the project root
+```
+node data/generate.js
+```
+
 ## Build Setup
 
 ```bash
