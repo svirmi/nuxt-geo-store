@@ -33,6 +33,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/map'
   ],
   /*
   ** Nuxt.js dev-modules
