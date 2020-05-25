@@ -20,7 +20,8 @@
     "koa": "^2.6.2",
     "koa-graphql": "^0.8.0",
     "koa-mount": "^4.0.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vue2-google-maps": "^0.10.7"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.0.0",
