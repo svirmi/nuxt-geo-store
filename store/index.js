@@ -1,5 +1,5 @@
 import Vuex from 'vuex';
-import axios from "../.nuxt/axios";
+import axios from "axios";
 
 const LOCATION_QUERY = `query ($lat: Float!, $lng: Float!, $radius: Float!, $search: String, $price: Float) {
   locations(
@@ -120,4 +120,11 @@ const createStore = () => {
       }
     }
   });
+
+  store.dispatch('PRODUCTS_GET');
+  store.dispatch('SEARCH_RUN');
+
+  return store;
 }
+
+export default createStore;
