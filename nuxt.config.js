@@ -1,6 +1,9 @@
 const colors = require('vuetify/es5/util/colors').default
 
 module.exports = {
+  env: {
+    GOOGLE_MAPS_KEY: process.env.GOOGLE_MAPS_KEY
+  },
   mode: 'spa',
   /*
   ** Headers of the page
