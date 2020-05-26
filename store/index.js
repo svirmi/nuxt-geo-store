@@ -36,8 +36,8 @@ const state = {
   products: [],
 
   position: {
-    lat: 45.4356958,
-    lng: -122.5305477,
+    lat: 59.434380,
+    lng: 24.737289,
   },
 
   radius: 5,
